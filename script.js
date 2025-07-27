@@ -18,7 +18,7 @@ const messages = [
   "Birthday",
   "To",
   "You",
-  "fafa"
+  "aws"
 ];
 
 let particles = [];
@@ -83,7 +83,7 @@ function createParticlesFromTargets(targets) {
       y: prev.y,
       targetX: t.x,
       targetY: t.y,
-      color: "pink",
+      color: "hotpink",
       text: null
     };
   });
@@ -113,7 +113,7 @@ function createHeartShapeWithText(text) {
       y: prev.y,
       targetX: p.x,
       targetY: p.y,
-      color: "pink",
+      color: "hotpink",
       text: null
     };
   });
