@@ -159,7 +159,7 @@ function showNextMessage() {
     setTimeout(showNextMessage, delayBetweenTexts);
   } else {
     setTimeout(() => {
-      createHeartShapeWithText("My Beautiful Princess");
+      createHeartShapeWithText("My Beautiful Boy");
     }, 500);
   }
 }
@@ -175,7 +175,7 @@ function spawnILoveYou() {
       targetX: tx,
       targetY: ty,
       color: "deeppink",
-      text: "I love you"
+      text: "You are Different"
     };
 
     particles.push(particle);
