@@ -18,7 +18,7 @@ const messages = [
   "Birthday",
   "To",
   "You",
-  "aws"
+  "Tislit"
 ];
 
 let particles = [];
@@ -159,7 +159,7 @@ function showNextMessage() {
     setTimeout(showNextMessage, delayBetweenTexts);
   } else {
     setTimeout(() => {
-      createHeartShapeWithText("My Beautiful Boy");
+      createHeartShapeWithText("Thank you for being in my life");
     }, 500);
   }
 }
